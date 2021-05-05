@@ -28,3 +28,16 @@ section {
 main.container {
     margin-top: 80px;
 }
+
+.info:first-child {
+    text-align:center;
+}
+
+#video {
+    height: 100%;
+    width: auto;
+}
+
+.product {
+    text-align: center;
+}
