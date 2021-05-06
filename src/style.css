@@ -1,43 +1,79 @@
 html,
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 section {
-    height: 400px;
+  height: 400px;
 }
 
 #header {
-    position: fixed;
-    width: 100%;
-    top: 0;
-    background: white;
-    box-shadow: 0 0 2px black;
-    z-index: 100;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+  box-shadow: 0 0 2px black;
+  z-index: 100;
 }
 
 #header .container {
-    height: 64px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 main.container {
-    margin-top: 80px;
+  margin-top: 80px;
 }
 
 .info:first-child {
-    text-align:center;
+  text-align: center;
 }
 
 #video {
-    height: 100%;
-    width: auto;
+  height: 100%;
+  width: auto;
 }
 
 .product {
-    text-align: center;
+  text-align: center;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+.feature {
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-bar a.nav-link {
+  margin: 0 16px;
+}
+
+/* Larger than mobile screen */
+@media (min-width: 40rem) {
+  #site-title {
+    display: none;
+  }
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80rem) {
+  #site-title {
+    display: inline;
+    font-size: 0.1rem;
+  }
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120rem) {
+  #site-title {
+    display: inline;
+    font-size: 0.1rem;
+  }
 }

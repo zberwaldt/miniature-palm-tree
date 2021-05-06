@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>test</title>
+    <title>Miniature Palm Trees</title>
 </head>
 
 <body>
     <header id="header">
         <div class="container">
-            <img src="#" alt="@" id="header-img">
+            <img src="#" alt="Miniature Palm Trees" id="header-img">
+            <h1 id="site-title">Miniature Palm Trees</h1>
             <nav id="nav-bar">
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#how-it-works" class="nav-link">How it Works</a>
@@ -20,82 +21,94 @@
         </div>
     </header>
     <main class="container">
-        <section>
+        <section class="row">
+            <h2>Cutting Edge 3D printed palm trees</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <input id="email" name="email" type="email" placeholder="email">
-                <input id="submit" type="submit" value="Join the Wait List">
-
+                <label for="email">Email:
+                    <input id="email" name="email" type="email" placeholder="email">
+                </label>
+                <input class="button" id="submit" type="submit" value="Join the Wait List">
             </form>
         </section>
-        <section id="features">
+        <section id="features" class="row">
             <h2>features</h2>
             <div class="row">
-                <div class="column">
-                    <h3>feature</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quae?</p>
+                <div class="column feature">
+                    <i class="icon" data-feather="box"></i>
+                    <div class="feature-info">
+                        <h3>3D Printed</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quae?</p>
+                    </div>
                 </div>
-                <div class="column">
-                    <h3>feature</h3>
-                    <p>Sapiente, sint! Repellat atque laudantium itaque inventore nam veniam saepe!</p>
+                <div class="column feature">
+                    <i class="icon" data-feather="cpu"></i>
+                    <div class="feature-info">
+                        <h3>Cutting Edge</h3>
+                        <p>Sapiente, sint! Repellat atque laudantium itaque inventore nam veniam saepe!</p>
+                    </div>
                 </div>
-                <div class="column">
-                    <h3>feature</h3>
-                    <p>Officia optio cupiditate ut voluptates dolorum fuga ipsum a totam!</p>
-                </div>
-            </div>
-        </section>
-        <section id="how-it-works">
-            <div class="row">
-                <div class="column info">
-                    <iframe id="video" src="https://www.youtube-nocookie.com/embed/QgUrsT7fUXI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-                <div class="column info">
-                    <h3>Info Here</h3>
-                    <p>Neque, obcaecati veritatis eos sed id porro, earum laborum aspernatur, ut iste necessitatibus
-                        ratione enim unde saepe delectus ullam? Nulla, quidem? Similique totam perferendis aut, ducimus
-                        itaque fugiat vitae iste.</p>
+                <div class="column feature">
+                    <i class="icon" data-feather="award"></i>
+                    <div class="feature-info">
+                        <h3>Quality Garunteed</h3>
+                        <p>Officia optio cupiditate ut voluptates dolorum fuga ipsum a totam!</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section id="pricing">
-            <div class="row">
-                <div class="column product" id="thing2">
-                    <header>Mini Palm Tree</header>
-                    <h2>$300</h2>
-                    <ol>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                    </ol>
-                    <button class="btn">select</button>
-                </div>
-                <div class="column product" id="thing3">
-                    <header>A little less mini palm tree</header>
-                    <h2>$600</h2>
-                    <ol>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                    </ol>
-                    <button class="btn">select</button>
-                </div>
-                <div class="column product" id="thing1">
-                    <header>Mini Palm Tree</header>
-                    <h2>$1200</h2>
-                    <ol>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                        <li>lorem ipsum</li>
-                    </ol>
-                    <button class="btn">select</button>
-                </div>
+        <section id="how-it-works" class="row">
+
+            <div class="column info">
+                <iframe id="video" src="https://www.youtube-nocookie.com/embed/QgUrsT7fUXI?controls=0"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+            <div class="column info">
+                <h3>Info Here</h3>
+                <p>Neque, obcaecati veritatis eos sed id porro, earum laborum aspernatur, ut iste necessitatibus
+                    ratione enim unde saepe delectus ullam? Nulla, quidem? Similique totam perferendis aut, ducimus
+                    itaque fugiat vitae iste.</p>
+            </div>
+
+        </section>
+        <section id="pricing" class="row">
+            <div class="column product" id="thing2">
+                <header>Mini Palm Tree</header>
+                <h2>$300</h2>
+                <ol>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                </ol>
+                <button class="button">select</button>
+            </div>
+            <div class="column product" id="thing3">
+                <header>A little less mini palm tree</header>
+                <h2>$600</h2>
+                <ol>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                </ol>
+                <button class="button">select</button>
+            </div>
+            <div class="column product" id="thing1">
+                <header>Mini Palm Tree</header>
+                <h2>$1200</h2>
+                <ol>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                    <li>lorem ipsum</li>
+                </ol>
+                <button class="button">select</button>
             </div>
         </section>
     </main>
-    <footer>
+    <footer class="row">
         <nav>
             <a href="#">Privacy</a>
             <a href="#">Terms</a>
