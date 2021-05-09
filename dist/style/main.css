@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+#site-title {
+  display: none;
+}
+
 section {
   height: 400px;
 }
@@ -57,13 +61,13 @@ main.container {
 
 /* Larger than mobile screen */
 @media (min-width: 40rem) {
-  #site-title {
+  #site-header {
     display: none;
   }
 }
 
 /* Larger than tablet screen */
-@media (min-width: 80rem) {
+/* @media (min-width: 80rem) {
   #site-title {
     display: inline;
     font-size: 0.1rem;
@@ -71,9 +75,9 @@ main.container {
 }
 
 /* Larger than desktop screen */
-@media (min-width: 120rem) {
+/* @media (min-width: 120rem) {
   #site-title {
     display: inline;
     font-size: 0.1rem;
   }
-}
+} */
