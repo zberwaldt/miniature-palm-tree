@@ -8,8 +8,35 @@ body {
   display: none;
 }
 
-section {
-  height: 400px;
+#header-img {
+  width: 32px;
+  height: auto;
+}
+
+#nav-bar .nav-link {
+  margin: 0 8px;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.product {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 8px;
+  overflow: hidden;
+}
+
+.product header {
+  background: rgb(50, 50, 50);
+  padding: 8px 0;
+  margin-bottom: 8px;
+  color: white;
+}
+
+.product ol {
+  list-style: none;
 }
 
 #header {
@@ -57,6 +84,51 @@ main.container {
 
 .nav-bar a.nav-link {
   margin: 0 16px;
+}
+
+.footer-info {
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 16px;
+  padding: 16px 0 32px;
+  background:rgb(50, 50, 50);
+}
+
+.footer-info p {
+  color: rgba(255, 255, 255, .8);
+}
+
+.footer-info nav a {
+  margin: 0 8px;
+}
+
+#form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+label,
+input[type="email"],
+input[type="submit"] {
+  margin: 0;
+}
+
+label {
+  border-top-left-radius: .4rem;
+  border-bottom-left-radius: .4rem;
+  padding: .6rem 3.0rem .7rem;
+  background: rgb(190, 190, 190);
+}
+
+input[type="email"] {
+  border-radius: 0;
+}
+
+input[type="submit"] {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px ;
 }
 
 /* Larger than mobile screen */
