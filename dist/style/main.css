@@ -4,12 +4,58 @@ body {
   padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
 #site-title {
   display: none;
 }
 
-section {
-  height: 400px;
+#header-img {
+  width: 32px;
+  height: auto;
+}
+
+#nav-bar .nav-link {
+  margin: 0 8px;
+}
+
+section.row {
+  min-height: 400px;
+  padding: 32px 0;
+}
+
+section h2 {
+  text-align: center;
+}
+
+.product {
+  border: 1px solid black;
+  border-radius: 2px;
+  margin: 8px;
+  overflow: hidden;
+}
+
+#pricing .column {
+  padding: 0;
+}
+
+.product header {
+  background: rgb(50, 50, 50);
+  padding: 8px 0;
+  margin-bottom: 8px;
+  color: white;
+  width: 100%;
+}
+
+.product ol {
+  list-style: none;
 }
 
 #header {
@@ -46,8 +92,8 @@ main.container {
   width: auto;
 }
 
-#nav-bar .nav-link {
-  margin: 0 8px;
+#how-it-works h2 {
+  text-transform: capitalize;
 }
 
 .product {
@@ -57,11 +103,29 @@ main.container {
 .icon {
   width: 48px;
   height: 48px;
+  margin-bottom: 1rem;
+  color: #9b4dca;
 }
 
-.feature {
+feature {
   display: flex;
-  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem 1rem;
+}
+
+.info {
+  margin: 16px;
+}
+
+.info h3 {
+  text-align: center;
+}
+
+.feature-info h3,
+.feature-info p {
+  text-align: center;
 }
 
 .nav-bar a.nav-link {
@@ -69,8 +133,55 @@ main.container {
 }
 
 .footer-info {
+  justify-content: space-around;
+  text-align: center;
+  margin-top: 16px;
+  padding: 16px 0 32px;
+  background: rgb(50, 50, 50);
+}
+
+.footer-info p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-info nav a {
+  margin: 0 8px;
+}
+
+#form {
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+label,
+input[type="email"],
+input[type="submit"] {
+  margin: 0;
+}
+
+label {
+  border-top-left-radius: 0.4rem;
+  border-bottom-left-radius: 0.4rem;
+  padding: 0 3rem;
+  background: rgb(125, 125, 125);
+  font-size: 1.1rem;
+  text-transform: uppercase;
+  height: 3.8rem;
+  line-height: 3.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+input[type="email"] {
+  border-radius: 0;
+}
+
+input[type="submit"] {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
 
 /* Larger than mobile screen */

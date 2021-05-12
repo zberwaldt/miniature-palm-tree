@@ -25,56 +25,62 @@
         </div>
     </header>
     <main class="container">
-        <section>
+        <section id="jumbotron">
             <h2>Cutting Edge 3D printed palm trees</h2>
             <form id="form" action="https://www.freecodecamp.com/email-submit">
-                <label for="email">Email:
-                    <input id="email" name="email" type="email" placeholder="email">
-                </label>
-                <input class="button" id="submit" type="submit" value="Join the Wait List">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email">
+                <input class="button" id="submit" type="submit" value="Join">
             </form>
         </section>
         <section id="features">
             <h2>features</h2>
             <div class="row">
-                <div class="column feature">
-                    <i class="icon" data-feather="box"></i>
-                    <div class="feature-info">
-                        <h3>3D Printed</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quae?</p>
-                    </div>
+                <div class="column">
+                    <feature>
+                        <i class="icon" data-feather="box"></i>
+                        <div class="feature-info">
+                            <h3>3D Printed</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius, quae?</p>
+                        </div>
+                    </feature>
                 </div>
-                <div class="column feature">
-                    <i class="icon" data-feather="cpu"></i>
-                    <div class="feature-info">
-                        <h3>Cutting Edge</h3>
-                        <p>Sapiente, sint! Repellat atque laudantium itaque inventore nam veniam saepe!</p>
-                    </div>
+                <div class="column">
+                    <feature>
+                        <i class="icon" data-feather="cpu"></i>
+                        <div class="feature-info">
+                            <h3>Cutting Edge</h3>
+                            <p>Sapiente, sint! Repellat atque laudantium itaque inventore nam veniam saepe!</p>
+                        </div>
+                    </feature>
                 </div>
-                <div class="column feature">
-                    <i class="icon" data-feather="award"></i>
-                    <div class="feature-info">
-                        <h3>Quality Garunteed</h3>
-                        <p>Officia optio cupiditate ut voluptates dolorum fuga ipsum a totam!</p>
-                    </div>
+                <div class="column">
+                    <feature>
+                        <i class="icon" data-feather="award"></i>
+                        <div class="feature-info">
+                            <h3>Quality Garunteed</h3>
+                            <p>Officia optio cupiditate ut voluptates dolorum fuga ipsum a totam!</p>
+                        </div>
+                    </feature>
                 </div>
             </div>
         </section>
         <section id="how-it-works">
-
-            <div class="column info">
-                <iframe id="video" src="https://www.youtube-nocookie.com/embed/QgUrsT7fUXI?controls=0"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
+            <h2>how it works</h2>
+            <div class="row">
+                <div class="column info">
+                    <iframe id="video" src="https://www.youtube-nocookie.com/embed/QgUrsT7fUXI?controls=0"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+                <div class="column info">
+                    <h3>Info Here</h3>
+                    <p>Neque, obcaecati veritatis eos sed id porro, earum laborum aspernatur, ut iste necessitatibus
+                        ratione enim unde saepe delectus ullam? Nulla, quidem? Similique totam perferendis aut, ducimus
+                        itaque fugiat vitae iste.</p>
+                </div>
             </div>
-            <div class="column info">
-                <h3>Info Here</h3>
-                <p>Neque, obcaecati veritatis eos sed id porro, earum laborum aspernatur, ut iste necessitatibus
-                    ratione enim unde saepe delectus ullam? Nulla, quidem? Similique totam perferendis aut, ducimus
-                    itaque fugiat vitae iste.</p>
-            </div>
-
         </section>
         <section id="pricing" class="row">
             <div class="column product" id="thing2">
@@ -112,15 +118,13 @@
             </div>
         </section>
     </main>
-    <footer class="container">
-        <div class="row footer-info">
-            <p>Zach Berwaldt &copy; 2020 and Beyond</p>
-            <nav>
-                <a href="#">Privacy</a>
-                <a href="#">Terms</a>
-                <a href="#">Contanct</a>
-            </nav>
-        </div>
+    <footer class="row footer-info">
+        <p>Zach Berwaldt &copy; 2021 and Beyond</p>
+        <nav>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Contanct</a>
+        </nav>
     </footer>
     <script src="main.bundle.js"></script>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
